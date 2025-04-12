@@ -1,0 +1,236 @@
+.homepage-category {
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+
+.homepage-category-item {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: transform linear 0.1s;
+  will-change: transform;
+}
+
+.homepage-category-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.homepage-category-img {
+  padding-top: 44%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.homepage-category-name {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(101, 176, 206);
+  margin-bottom: 6px;
+}
+
+.homepage-category-view {
+  text-align: center;
+  color: #939393;
+  padding-bottom: 12px;
+}
+
+/* San pham noi bat */
+.homepage-product {
+  margin-bottom: 40px;
+}
+
+.homepage-product-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.homepage-product-title {
+  margin: 0;
+  color: rgb(101, 176, 206);
+}
+
+.product-more-container {
+  color:rgb(101, 176, 206);
+  margin-right: 20px;
+}
+
+.product-more {
+  text-decoration: none;
+  color:rgb(101, 176, 206);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.product-more-icon {
+  font-size: 16px;
+}
+
+.homepage-product-name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  height: 36px;
+  margin: 10px;
+  color: #252a2b;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.homepage-product-price {
+  display: flex;
+  margin-left: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.homepage-product-price-current {
+  font-size: 18px;
+  color:var(--primary);
+  margin-right: 6px;
+}
+
+.homepage-product-price-old {
+  font-size: 16px;
+  color: rgb(170, 170, 170);
+  text-decoration: line-through;
+}
+
+.homepage-product-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: white;
+  margin: 8px 10px;
+  padding-bottom: 8px;
+}
+
+.homepage-product-wishlist, .homepage-product-cart {
+  background-color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+.homepage-product-wishlist:hover, .homepage-product-cart:hover {
+  background-color: white;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+/* banner sale */
+.homepage-sale {
+  margin-bottom: 50px;
+}
+
+.homepage-sale-banner {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: transform linear 0.1s;
+  will-change: transform;
+}
+
+.homepage-sale-banner:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.homepage-sale-banner-img {
+  padding-top: 39.1%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+/* article */
+.homepage-article {
+  padding-bottom: 40px;
+}
+
+.homepage-article-heading {
+  margin-bottom: 8px;
+  color: #c31425;
+}
+
+.article-item {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: transform linear 0.1s;
+  will-change: transform;
+  padding-bottom: 12px;
+}
+
+.article-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.article-img {
+  padding-top: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.homepage-article-name {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 18px;
+  height: 36px;
+  margin: 10px;
+  margin-top: 10px;
+  color: #c31425;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-transform: capitalize;
+}
+
+.homepage-article-preview {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  height: 36px;
+  margin: 10px;
+  margin-top: 12px;
+  color: #b3b0b0;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  
+}

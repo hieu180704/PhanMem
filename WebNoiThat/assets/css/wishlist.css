@@ -1,0 +1,121 @@
+.wishlist-container {
+  min-height: 500px;
+}
+
+.wishlist-product {
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.wishlist-product-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.wishlist-product-title {
+  margin: 0;
+  color: rgb(101, 176, 206);
+  font-size: 26px;
+}
+
+.wishlist-product-name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  height: 36px;
+  margin: 10px;
+  color: #252a2b;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.wishlist-product-price {
+  display: flex;
+  margin-left: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.wishlist-product-price-current {
+  font-size: 18px;
+  color: var(--primary);
+  margin-right: 6px;
+}
+
+.wishlist-product-price-old {
+  font-size: 16px;
+  color: rgb(170, 170, 170);
+  text-decoration: line-through;
+}
+
+.wishlist-product-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: white;
+  margin: 8px 10px;
+  padding-bottom: 8px;
+}
+
+.wishlist-product-delete,
+.wishlist-product-cart {
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.wishlist-product-delete {
+  background-color: tomato;
+}
+
+.wishlist-product-cart {
+  background-color: var(--primary);
+}
+
+.wishlist-product-cart:hover {
+  background-color: white;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.wishlist-product-delete:hover {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+}
+
+.xoayeuthich {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a.wishlist-product-delete {
+  text-decoration: none;
+  text-align: center;
+}

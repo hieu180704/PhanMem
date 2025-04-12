@@ -1,0 +1,51 @@
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: skyblue;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    align-items: center;
+}
+
+th {
+    background-color: skyblue;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn-group .btn {
+    margin-right: 5px;
+}
+
+.image-order {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100px;
+    /* Điều chỉnh kích thước ảnh tối đa */
+    max-height: 100px;
+    /* Điều chỉnh kích thước ảnh tối đa */
+    overflow: hidden;
+    /* Ảnh vượt quá kích thước sẽ bị cắt */
+    align-items: center;
+}
