@@ -81,7 +81,7 @@
         }
         ?>
         <form method="post">
-            <h1>Cấm Đăng Ký</h1>
+            <h1>Đăng Ký</h1>
             <div class="inputbox">
                 <input type="text" name="txtTenTaiKhoan" placeholder="Tên Tài Khoản" value="<?php echo $tentaikhoan ?>">
                 <i class='bx bxs-user'></i>
