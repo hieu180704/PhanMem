@@ -45,13 +45,12 @@ include '../quanly/functions.php'; //File Hàm
 
         ?>
         <form method="POST">
-            <h1>Đăng Kí </h1>
+            <h1>Đăng Nhập</h1>
             <div class="inputbox">
                 <input type="text" placeholder="Tài khoản" name="txtTenTaiKhoan">
                 <i class='bx bxs-user'></i>
             </div>
-
-            <div class="inputbox">
+           <div class="inputbox">
                 <input type="password" placeholder="Mật khẩu" name="txtMatKhau">
                 <i class='bx bxs-lock'></i>
             </div>
