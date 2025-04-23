@@ -45,7 +45,7 @@ include '../quanly/functions.php'; //File Hàm
 
         ?>
         <form method="POST">
-            <h1>ĐăngNhập</h1>
+            <h1>Hieeus DT</h1>
             <div class="inputbox">
                 <input type="text" placeholder="Tài khoản" name="txtTenTaiKhoan">
                 <i class='bx bxs-user'></i>
