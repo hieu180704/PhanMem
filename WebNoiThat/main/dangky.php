@@ -18,8 +18,8 @@
         $email = "";
 
 
-        include 'D:\XamPP\htdocs\PhanMem\WebNoiThat\quanly\connect.php';  //Thêm file connect
-        include 'D:\XamPP\htdocs\PhanMem\WebNoiThat\quanly\functions.php'; //File Hàm
+        include '..\quanly\connect.php';  //Thêm file connect
+        include '..\quanly\functions.php'; //File Hàm
 
         if (isset($_POST["btnDangKy"])) {
             $tentaikhoan = $_POST['txtTenTaiKhoan'];
